@@ -139,18 +139,22 @@ h2 {
 }
 p {
   font-size: 24px;
+  line-height: 28px;
   font-weight: 300px;
   color: #606161;
 } 
 .blog-link {
   font-size: 24px;
   font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .divider {
   height: 1px;
   width: 700px;
   background-color: #606161;
-  margin-top: 20px;
+  margin-top: 160px;
+  margin-bottom: 40px;
 }
 
 /* Side Bar */
@@ -189,9 +193,12 @@ h3 {
 }
 
 p.introduction:first-letter {
- font-size: 300%;
+ font-size: 380%;
  float: left;
  width: 1em;
  padding-right: 10px;
- padding-bottom: 2px;
+ padding-top: 28px;
+ padding-bottom: 20px;
+ padding-left: 0;
+ font-weight: 600;
 }
