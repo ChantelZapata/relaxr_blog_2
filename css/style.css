@@ -148,6 +148,8 @@ p {
   font-weight: 600;
   margin-top: 40px;
   margin-bottom: 40px;
+  text-decoration: none;
+  color: #033048;
 }
 .divider {
   height: 1px;
@@ -155,6 +157,16 @@ p {
   background-color: #606161;
   margin-top: 160px;
   margin-bottom: 40px;
+}
+p.introduction:first-letter {
+ font-size: 380%;
+ float: left;
+ width: 1em;
+ padding-right: 10px;
+ padding-top: 28px;
+ padding-bottom: 20px;
+ padding-left: 0;
+ font-weight: 600;
 }
 
 /* Side Bar */
@@ -169,18 +181,20 @@ h3 {
   font-weight: 800;
   color: #033048;
 }
-.side-bar-nav {
+.side-bar-list {
   font-size: 24px;
   font-weight: 300;
   color: #033048;
   list-style: none;
   text-align: left;
+    padding-left:0;
 }
 .learn-more {
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 600;
   color: #033048;
-
+  margin-bottom: 100px;
+  text-decoration: none;
 }
 .about-descrip {
   font-size: 22px;
@@ -191,14 +205,7 @@ h3 {
 .side-bar-list {
   display: table;
 }
-
-p.introduction:first-letter {
- font-size: 380%;
- float: left;
- width: 1em;
- padding-right: 10px;
- padding-top: 28px;
- padding-bottom: 20px;
- padding-left: 0;
- font-weight: 600;
+.ad-unit {
+  margin-top: 40px;
 }
+
