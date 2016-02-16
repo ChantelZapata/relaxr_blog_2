@@ -168,6 +168,18 @@ p.introduction:first-letter {
  padding-left: 0;
  font-weight: 600;
 }
+.additionaltext1 {
+  display: none;
+}
+.additionaltext2 {
+  display: none;
+}
+.read-less1 {
+  display: none;
+}
+.read-less2 {
+  display: none;
+}
 
 /* Side Bar */
 .side-bar {
@@ -207,5 +219,8 @@ h3 {
 }
 .ad-unit {
   margin-top: 40px;
+}
+.learn-more-text {
+  display: none;
 }
 
